@@ -1,0 +1,48 @@
+{
+  "name": "node-imap",
+  "version": "1.0.0",
+  "description": "IMAP mail processing application",
+  "dependencies": {
+    "base64-stream": "^0.1.3",
+    "cheerio": "^0.20.0",
+    "imap": "^0.8.16",
+    "mailparser": "^0.5.3",
+    "request": "^2.69.0",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=5.1.0"
+  },
+  "repository": {
+    "type": "svn",
+    "url": "https://bugtrac.telecomguard.ru/svn/proj-0010/trunk/util/node-imap"
+  },
+  "author": {
+    "name": "Alexander Tymchuk"
+  },
+  "license": "MIT",
+  "readme": "IMAP mail processing application",
+  "jscsConfig": {
+    "preset": "airbnb",
+    "validateIndentation": 4,
+    "safeContextKeyword": "self",
+    "disallowTrailingWhitespace": "ignoreEmptyLines",
+    "requireCamelCaseOrUpperCaseIdentifiers": false,
+    "requirePaddingNewLinesBeforeLineComments": false,
+    "requirePaddingNewLinesAfterBlocks": false,
+    "disallowQuotedKeysInObjects": false,
+    "disallowMultipleVarDecl": false,
+    "requireTrailingComma": false,
+    "validateLineBreaks": "CRLF",
+    "maximumLineLength": 140,
+    "maxErrors": -1
+  },
+  "jshintConfig": {
+    "node": true,
+    "esnext": true
+  }
+}
